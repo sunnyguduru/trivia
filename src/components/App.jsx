@@ -3,6 +3,7 @@ import "../css/App.css";
 import data from "../sample_data.json";
 
 function App() {
+  console.log(data);
   return <div className="app">Trivia!</div>;
 }
 
